@@ -26,10 +26,24 @@ let result = await fetch(lgpdUrl);
 let json = await result.json();
 
 if(json.error != '') {
-    let id = '123';  //na prática seria json.id
-    localStorage.setItem('lgpd', json.id);
+    let id = json.id; 
+    localStorage.setItem('lgpd', id);
 }
 
-localStorage.setItem('lgpd', 123);
+
 });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
