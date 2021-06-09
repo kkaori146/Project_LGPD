@@ -1,0 +1,1 @@
+Construção de Banner utilizado o conceito de LGPD
